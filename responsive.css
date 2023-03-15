@@ -1,0 +1,508 @@
+*{
+    padding: 0;
+    margin: 0;
+
+}
+.navbar{
+    display: flex;
+    height: 70px;
+    width: 100%;
+    position: fixed;
+    background-color:white;
+    align-items: center;
+    
+}
+.logo{
+    background-color:white;
+    width: 10%;
+    color: black;
+     margin: 0 0 0 30px;
+     font-size: 20px;
+  
+
+
+
+}
+
+.navlist{  
+    width: 35%;
+    background-color:white;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    text-transform: uppercase;
+    font-size: 12px;
+    
+    
+    
+    
+    
+
+}
+.navlist li{
+    list-style-type: none;
+    
+    
+}
+.navlist li a{
+    color: black;
+    text-decoration: none;
+
+}
+
+nav .navlist li a:hover{
+   color: blue;
+    
+    
+
+}
+.rightnav{
+    width: 55%;
+    background-color: white;
+    display: flex;
+    justify-content:flex-end;
+    align-items: center;
+}
+.nav-btn{
+    background-color: blue;
+    padding: 7px 30px 4px 30px ;
+    margin: 0 40px;
+    border: none;
+    border-radius: 17px;
+    color: white;
+    font-size: 15px;
+    
+    
+   }
+
+.burger{
+   display: none;
+   position: absolute;
+   right: 5%;
+   top: 15px;
+}
+
+
+.line{
+    width: 33px;
+    background-color:white;
+    height: 2px;
+    margin: 2px;
+}
+
+
+
+.insta{
+    height: 30px;
+    background-color: rgb(117 199 217);
+    padding: 80px 0px 10px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ins{
+    
+    text-decoration: none;
+    align-items: center;
+    color: black;
+}
+
+.firstsection{
+   height: 300px;
+   margin: 50px 0px 50px 0px;
+}
+
+.mainbox{
+    display: flex;
+    justify-content:center ;
+    align-items: center;
+    
+    
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+}
+
+.firsthalf{
+    width: 50%;
+    text-align: center;
+    margin: 0px 0px 0px 10px;
+    
+
+}
+.secondhalf{
+    width: 50%;
+    text-align: center;
+}
+
+
+
+
+
+
+#image-nature{
+    width: 400px;
+    height: 300px;
+}
+
+.secondsection{
+    display: flex;
+    height: 400px;
+    margin: 0px 0px 30px 0px;
+    
+}
+.sec-firsthalf{
+    width: 50%;
+    background-color: black;
+    color: white;
+    
+   
+    
+}
+
+textarea{
+    resize: none;
+    width: 150px;
+    height: 40px;
+}
+
+input,textarea{
+    display: block;
+    margin: 20px 0px 22px 90px;
+     padding: 6px;
+    width: 300px;
+    border: 2px;
+   
+}
+
+
+#firstheading,#skill{
+     margin: 3px 0px 2px 30px;
+     text-align: center;
+     
+
+
+}
+
+
+#sub{
+    background-color: rgb(96, 96, 172);
+    border:none;
+}
+
+
+.btn1{
+    border:none;
+    margin:  9vh 0 5vh 5vh;
+    padding: 12px;
+    border-radius: 20px;
+    font-size: medium;
+    color: white;
+    background-color: rgb(31, 86, 175);
+    cursor: pointer;
+}
+
+.btn2{
+    border:none;
+    margin:  9vh 0 5vh 5vh;
+    padding: 12px;
+    border-radius: 20px;
+    font-size: medium;
+    color: white;
+    background-color:rgb(31, 86, 175);
+    cursor: pointer;
+}
+
+
+
+.sec-secondhalf{
+   background-color: black;
+   width: 50%;
+   height:400px;
+   color: white;
+
+}
+  
+#sec-heading,#edu{
+    text-align: center;
+    margin: 4px;
+
+}
+.sec-spam{
+    margin: 2px;
+}
+
+#sec-heading{
+    margin: 40px 0px 0px 0px;
+}
+
+
+
+
+.secondhalf-heading{
+    font-size: 60px;
+}
+
+.sechalf-pra{
+    font-size: 20px;
+}
+
+
+#sec-heading2,#sec-pra{
+     text-align: center;
+     margin: 4px;
+     
+
+
+}
+
+#sec-heading2{
+    margin: 20px 0px 0px 0px;
+}
+
+.btn-sechalf{
+    border:none;
+    margin:  9vh 0 5vh 5vh;
+    padding: 3vh 6vh 3vh 6vh;
+    border-radius: 20px;
+    font-size: medium;
+    color: white;
+    background-color: black;
+    cursor: pointer;
+
+}
+
+
+
+
+.footer-first{
+    text-align: center;
+    margin: 30px 0 40px 0 ;
+    font-size: 30px;
+   
+}
+.footer-about{
+    display: flex;
+    justify-content: space-evenly;
+
+}
+.footer-second li{
+      
+    list-style-type: none;
+    text-decoration: none;
+}
+.footer-third li{
+   list-style-type: none;
+   text-decoration: none;
+}
+.footer-four  li{
+   list-style-type: none;
+  text-decoration:none ;
+}
+
+
+
+.last-footer{
+    
+    display: flex;
+    height: 9vh;
+    width: 100%;
+    background-color: bisque;
+    justify-content: center;
+    align-items: center;
+    margin: 4vh 0 0 0;
+}
+
+
+
+
+
+
+
+
+@media screen and (max-width: 800px){
+   .navlist{
+    flex-direction: column;
+    text-align: center;
+    background-color: white;
+    width: 50%;
+    
+}
+
+ .navlist li{
+    margin: 2vh;
+   
+    
+ }
+ .navlist li:hover{
+    background-color: orange;
+    padding: 3px 6px 3px 6px;
+    color: black;
+ }
+
+ 
+
+   .navbar{
+    flex-direction: column;
+    background-color:white;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+ .logo{
+    position: absolute;
+    left: 4%;
+    top: 34%;
+ }
+
+
+.rightnav{
+    background-color: white;
+      display: flex;
+      justify-content: center;
+      width: 50%;
+       
+}
+.nav-btn{
+   width: 100%;
+
+}
+.burger{
+   display: block;
+}
+.line{
+    background-color: black;
+}
+
+
+
+
+.firstsection{
+      height: 900px;
+      width: 100%;
+      margin: 20px 0px 20px 0px ;
+ }
+.mainbox{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+#image-nature{
+    width: 200px;
+}
+
+
+
+.h-nav{
+    height: 70px;
+    width: 100%;
+}
+.v-class{
+    visibility: hidden;
+}
+
+
+.secondsection{
+    display: flex;
+    flex-direction: column-reverse;
+    width: 100%;
+    margin: 20px 0px 20px 0px;
+    
+}
+
+.sec-firsthalf{
+    width: 100%;
+}
+.sec-secondhalf{
+   background-color: black;
+   width: 100%;
+   color: white;
+ 
+}
+
+.sec-firsthalf-img{
+    width: 100%;
+    margin: 0px  0px 40px 0px;
+}
+
+.footer-first{
+   text-align: center;
+   margin: 0 0 10px;
+}
+
+.footer-second {
+     margin: 6px;   
+      
+}
+.footer-third {
+   margin: 6px;
+} 
+.footer-four{
+   margin:6px;
+}
+
+
+input,textarea{
+    display: block;
+    margin: 20px 0px 22px 220px;
+     padding: 6px;
+    width: 300px;
+    display: block;
+
+}
+
+.btn1{
+    margin: 20px 5px 20px 0px;
+}
+
+.btn2{
+    margin:20px 0px 20px 5px;
+}
+
+}
+
+
+@media screen and (max-width: 385px){
+    .secondsection{
+        height: 510px;
+    }
+
+    input,textarea{
+        margin: 20px 0px 22px 30px;
+    }
+
+}
+
+
+
+
+@media screen and (max-width: 500px){
+    input,textarea{
+        margin: 20px 0px 22px 30px;
+    }
+
+}
+
+
+
+
+@media screen and (max-width: 600px){
+    input,textarea{
+        margin: 20px 0px 22px 46px;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
